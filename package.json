@@ -1,0 +1,18 @@
+{
+  "name": "rescript-library-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:resinfo/rescript-library-template.git",
+  "author": "Oliver Fencott <oliverfencott@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "3.15.0",
+    "rescript": "^9.1.4",
+    "rescript-ava": "3.15.0"
+  },
+  "scripts": {
+    "make": "rescript build -with-deps",
+    "dev": "rescript build -w",
+    "test": "ava"
+  }
+}
