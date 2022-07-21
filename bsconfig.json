@@ -11,8 +11,9 @@
   }],
   "package-specs": {
     "in-source": true,
-    "module": "commonjs",
-    "suffix": ".cjs"
+    "module": "es6",
+    "suffix": ".bs.js"
   },
+  "bs-dependencies": ["@resinfo/parser"],
   "bs-dev-dependencies": ["rescript-ava"]
 }

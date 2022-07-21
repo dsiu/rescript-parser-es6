@@ -1,6 +1,7 @@
 {
   "name": "rescript-library-template",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "repository": "git@github.com:resinfo/rescript-library-template.git",
   "author": "Oliver Fencott <oliverfencott@gmail.com>",
@@ -14,5 +15,8 @@
     "make": "rescript build -with-deps",
     "dev": "rescript build -w",
     "test": "ava"
+  },
+  "dependencies": {
+    "@resinfo/parser": "^2.0.0-alpha"
   }
 }
